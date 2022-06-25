@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vroom</title>
+</head>
+
+<body>
+  <h1>Keyboard Quarter-mile</h1>
+  <p>Red car: alternate <b>a</b> and <b>s</b> keys</p>
+  <p>Blue car: alternate <b>j</b> and <b>k</b> keys</p>
+
+  <canvas id="canvas" width="500" height="79"></canvas>
+
+  <h2 id="results"></h2>
+
+  <button id="startbutton" onclick="runGame()">Start</button>
+
+  <div style="display: none">
+    <img id="redcar" src="img/redcar.png" width="32" height="32">
+    <img id="bluecar" src="img/bluecar.png" width="32" height="32">
+  </div>
+
+  <script src="racegame.js"></script>
+</body>
+
+</html>
