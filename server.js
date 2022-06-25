@@ -1,8 +1,8 @@
 // Node.js WebSocket server script
-const http = require("http");
+const https = require("https");
 const WebSocketServer = require("websocket").server;
 let connections = [];
-const server = http.createServer();
+const server = https.createServer();
 server.listen(9898);
 
 let redPos = 10;

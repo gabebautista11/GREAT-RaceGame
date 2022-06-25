@@ -16,7 +16,7 @@ let racing = false;
 //if client breaks refresh
 
 //do "npm i" in terminal
-const ws = new WebSocket("wss://10.17.197.96:9898/");
+const ws = new WebSocket("wss://192.168.86.23/");
 
 ws.onopen = function () {
   console.log("WebSocket Client Connected");
