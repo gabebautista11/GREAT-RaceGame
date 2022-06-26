@@ -16,7 +16,7 @@ let racing = false;
 //if client breaks refresh
 
 //do "npm i" in terminal
-const ws = new WebSocket("wss://192.168.86.23:9898/", {secure: true});
+const ws = new WebSocket("wss://192.168.86.23:9898/", ["soap", "wamp"]);
 
 ws.onopen = function () {
   console.log("WebSocket Client Connected");
